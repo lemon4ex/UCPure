@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9657E3B2251D6C5008DCA5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9657E3A2251D6C5008DCA5B /* Foundation.framework */; };
+		C9657E4F2251D6C5008DCA5B /* UCPure.h in Headers */ = {isa = PBXBuildFile; fileRef = C9657E4E2251D6C5008DCA5B /* UCPure.h */; };
+		C9657E512251D6C5008DCA5B /* UCPure.m in Sources */ = {isa = PBXBuildFile; fileRef = C9657E502251D6C5008DCA5B /* UCPure.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9657E372251D6C5008DCA5B /* UCPure.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = UCPure.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9657E3A2251D6C5008DCA5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9657E3F2251D6C5008DCA5B /* preinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = preinst; path = Package/DEBIAN/preinst; sourceTree = "<group>"; };
+		C9657E402251D6C5008DCA5B /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postinst; path = Package/DEBIAN/postinst; sourceTree = "<group>"; };
+		C9657E412251D6C5008DCA5B /* postrm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = postrm; path = Package/DEBIAN/postrm; sourceTree = "<group>"; };
+		C9657E422251D6C5008DCA5B /* prerm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = prerm; path = Package/DEBIAN/prerm; sourceTree = "<group>"; };
+		C9657E432251D6C5008DCA5B /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		C9657E442251D6C5008DCA5B /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		C9657E462251D6C5008DCA5B /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		C9657E4A2251D6C5008DCA5B /* UCPure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UCPure.plist; path = Package/Library/PreferenceLoader/Preferences/UCPure.plist; sourceTree = "<group>"; };
+		C9657E4B2251D6C5008DCA5B /* UCPureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UCPureIcon.png; path = Package/Library/PreferenceLoader/Preferences/UCPureIcon.png; sourceTree = "<group>"; };
+		C9657E4C2251D6C5008DCA5B /* UCPureIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UCPureIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/UCPureIcon@2x.png"; sourceTree = "<group>"; };
+		C9657E4D2251D6C5008DCA5B /* UCPure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCPure-Prefix.pch"; sourceTree = "<group>"; };
+		C9657E4E2251D6C5008DCA5B /* UCPure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCPure.h; sourceTree = "<group>"; };
+		C9657E502251D6C5008DCA5B /* UCPure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCPure.m; sourceTree = "<group>"; };
+		C9657E542251D6C5008DCA5B /* UCPure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UCPure.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/UCPure.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9657E332251D6C5008DCA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9657E3B2251D6C5008DCA5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9657E2C2251D6C5008DCA5B = {
+			isa = PBXGroup;
+			children = (
+				C9657E3C2251D6C5008DCA5B /* UCPure */,
+				C9657E392251D6C5008DCA5B /* Frameworks */,
+				C9657E382251D6C5008DCA5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9657E382251D6C5008DCA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E372251D6C5008DCA5B /* UCPure.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9657E392251D6C5008DCA5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E3A2251D6C5008DCA5B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9657E3C2251D6C5008DCA5B /* UCPure */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E4E2251D6C5008DCA5B /* UCPure.h */,
+				C9657E502251D6C5008DCA5B /* UCPure.m */,
+				C9657E3D2251D6C5008DCA5B /* Package */,
+				C9657E452251D6C5008DCA5B /* Supporting Files */,
+			);
+			path = UCPure;
+			sourceTree = "<group>";
+		};
+		C9657E3D2251D6C5008DCA5B /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E3E2251D6C5008DCA5B /* DEBIAN */,
+				C9657E472251D6C5008DCA5B /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		C9657E3E2251D6C5008DCA5B /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E3F2251D6C5008DCA5B /* preinst */,
+				C9657E402251D6C5008DCA5B /* postinst */,
+				C9657E412251D6C5008DCA5B /* postrm */,
+				C9657E422251D6C5008DCA5B /* prerm */,
+				C9657E432251D6C5008DCA5B /* control */,
+				C9657E442251D6C5008DCA5B /* control.txt */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C9657E452251D6C5008DCA5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E462251D6C5008DCA5B /* PackageVersion.plist */,
+				C9657E4D2251D6C5008DCA5B /* UCPure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9657E472251D6C5008DCA5B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E482251D6C5008DCA5B /* PreferenceLoader */,
+				C9657E522251D6C5008DCA5B /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C9657E482251D6C5008DCA5B /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E492251D6C5008DCA5B /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		C9657E492251D6C5008DCA5B /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E4A2251D6C5008DCA5B /* UCPure.plist */,
+				C9657E4B2251D6C5008DCA5B /* UCPureIcon.png */,
+				C9657E4C2251D6C5008DCA5B /* UCPureIcon@2x.png */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		C9657E522251D6C5008DCA5B /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E532251D6C5008DCA5B /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		C9657E532251D6C5008DCA5B /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C9657E542251D6C5008DCA5B /* UCPure.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C9657E342251D6C5008DCA5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9657E4F2251D6C5008DCA5B /* UCPure.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9657E362251D6C5008DCA5B /* UCPure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9657E572251D6C5008DCA5B /* Build configuration list for PBXNativeTarget "UCPure" */;
+			buildPhases = (
+				C9657E312251D6C5008DCA5B /* ShellScript */,
+				C9657E322251D6C5008DCA5B /* Sources */,
+				C9657E332251D6C5008DCA5B /* Frameworks */,
+				C9657E342251D6C5008DCA5B /* Headers */,
+				C9657E352251D6C5008DCA5B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UCPure;
+			productName = UCPure;
+			productReference = C9657E372251D6C5008DCA5B /* UCPure.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9657E2D2251D6C5008DCA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					C9657E362251D6C5008DCA5B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C9657E302251D6C5008DCA5B /* Build configuration list for PBXProject "UCPure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9657E2C2251D6C5008DCA5B;
+			productRefGroup = C9657E382251D6C5008DCA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9657E362251D6C5008DCA5B /* UCPure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9657E312251D6C5008DCA5B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# rm -rf \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/*\"\n# cp -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/PalmRiskSvr\" \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/\"\n\n# 自动更新deb包版本号\necho $CONFIGURATION\nif [ \"Release\" == \"${CONFIGURATION}\" ]\nthen\npackInfoPlist=\"${PROJECT_DIR}/${TARGET_NAME}/PackageVersion.plist\"\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print PackageRevision\" \"${packInfoPlist}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :PackageRevision $buildNumber\" \"${packInfoPlist}\"\necho \"build number increase\"\nfi";
+		};
+		C9657E352251D6C5008DCA5B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/EasyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9657E322251D6C5008DCA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9657E512251D6C5008DCA5B /* UCPure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9657E552251D6C5008DCA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EasyDevPath = /opt/EasyDev;
+				EasyDevTheosPath = /opt/theos;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/frameworks",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9657E562251D6C5008DCA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EasyDevPath = /opt/EasyDev;
+				EasyDevTheosPath = /opt/theos;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/frameworks",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C9657E582251D6C5008DCA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevClearUiCacheOnInstall = NO;
+				EasyDevCopyOnBuild = NO;
+				EasyDevDeviceIP = "";
+				EasyDevDevicePort = "";
+				EasyDevInstallOnAnyBuild = NO;
+				EasyDevInstallOnProfiling = NO;
+				EasyDevUsePackageVersionPList = YES;
+				EasyDevkillProcessOnInstall = SpringBoard;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCPure/UCPure-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9657E592251D6C5008DCA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevClearUiCacheOnInstall = NO;
+				EasyDevCopyOnBuild = NO;
+				EasyDevDeviceIP = "";
+				EasyDevDevicePort = "";
+				EasyDevInstallOnAnyBuild = NO;
+				EasyDevInstallOnProfiling = NO;
+				EasyDevUsePackageVersionPList = YES;
+				EasyDevkillProcessOnInstall = SpringBoard;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCPure/UCPure-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9657E302251D6C5008DCA5B /* Build configuration list for PBXProject "UCPure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9657E552251D6C5008DCA5B /* Release */,
+				C9657E562251D6C5008DCA5B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9657E572251D6C5008DCA5B /* Build configuration list for PBXNativeTarget "UCPure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9657E582251D6C5008DCA5B /* Release */,
+				C9657E592251D6C5008DCA5B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9657E2D2251D6C5008DCA5B /* Project object */;
+}
