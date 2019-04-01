@@ -17,7 +17,7 @@
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<true/>
+			<false/>
 			<key>defaults</key>
 			<string>net.ymlab.dev.UCPure</string>
 			<key>key</key>
@@ -31,7 +31,7 @@
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<true/>
+			<false/>
 			<key>defaults</key>
 			<string>net.ymlab.dev.UCPure</string>
 			<key>key</key>
@@ -45,7 +45,7 @@
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<true/>
+			<false/>
 			<key>defaults</key>
 			<string>net.ymlab.dev.UCPure</string>
 			<key>key</key>
@@ -59,7 +59,7 @@
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<true/>
+			<false/>
 			<key>defaults</key>
 			<string>net.ymlab.dev.UCPure</string>
 			<key>key</key>
@@ -73,7 +73,7 @@
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<true/>
+			<false/>
 			<key>defaults</key>
 			<string>net.ymlab.dev.UCPure</string>
 			<key>key</key>
