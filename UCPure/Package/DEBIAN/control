@@ -1,9 +1,9 @@
 Package: net.ymlab.dev.UCPure
-Name: UCPure
-Version: 0.1-1
-Description: 
+Name: UC 净“水”器
+Version: 1.0-7
+Description: 精简优化 UC 浏览器，基于 12.3.6.1157 版本开发。
 Section: Tweaks
-Depends: firmware (>= 7.0), mobilesubstrate
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Conflicts: 
 Replaces: 
 Priority: optional
@@ -12,6 +12,6 @@ Author: h4ck
 dev: 
 Homepage: 
 Depiction: 
-Maintainer: 
+Maintainer: h4ck
 Icon: 
 

@@ -10,6 +10,12 @@
 		C9657E3B2251D6C5008DCA5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9657E3A2251D6C5008DCA5B /* Foundation.framework */; };
 		C9657E4F2251D6C5008DCA5B /* UCPure.h in Headers */ = {isa = PBXBuildFile; fileRef = C9657E4E2251D6C5008DCA5B /* UCPure.h */; };
 		C9657E512251D6C5008DCA5B /* UCPure.m in Sources */ = {isa = PBXBuildFile; fileRef = C9657E502251D6C5008DCA5B /* UCPure.m */; };
+		C9B5E9E02251FB420075AE20 /* NewsFlowArticleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B5E9DE2251FB420075AE20 /* NewsFlowArticleItem.h */; };
+		C9B5E9E12251FB420075AE20 /* NFADContent.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B5E9DF2251FB420075AE20 /* NFADContent.h */; };
+		C9B5E9E32251FB4E0075AE20 /* NewsFlowResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B5E9E22251FB4E0075AE20 /* NewsFlowResponse.h */; };
+		C9B5E9E72251FB820075AE20 /* NewsFlowItemParse.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B5E9E42251FB820075AE20 /* NewsFlowItemParse.h */; };
+		C9B5E9E82251FB820075AE20 /* NewsFlowItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B5E9E52251FB820075AE20 /* NewsFlowItem.h */; };
+		C9B5E9E92251FB820075AE20 /* NewsFlowItemFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B5E9E62251FB820075AE20 /* NewsFlowItemFactory.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +29,18 @@
 		C9657E442251D6C5008DCA5B /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		C9657E462251D6C5008DCA5B /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
 		C9657E4A2251D6C5008DCA5B /* UCPure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UCPure.plist; path = Package/Library/PreferenceLoader/Preferences/UCPure.plist; sourceTree = "<group>"; };
-		C9657E4B2251D6C5008DCA5B /* UCPureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UCPureIcon.png; path = Package/Library/PreferenceLoader/Preferences/UCPureIcon.png; sourceTree = "<group>"; };
 		C9657E4C2251D6C5008DCA5B /* UCPureIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UCPureIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/UCPureIcon@2x.png"; sourceTree = "<group>"; };
 		C9657E4D2251D6C5008DCA5B /* UCPure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCPure-Prefix.pch"; sourceTree = "<group>"; };
 		C9657E4E2251D6C5008DCA5B /* UCPure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCPure.h; sourceTree = "<group>"; };
 		C9657E502251D6C5008DCA5B /* UCPure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCPure.m; sourceTree = "<group>"; };
 		C9657E542251D6C5008DCA5B /* UCPure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UCPure.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/UCPure.plist; sourceTree = "<group>"; };
+		C9657E5A2251D7D3008DCA5B /* UCPureIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UCPureIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/UCPureIcon@2x.png"; sourceTree = "<group>"; };
+		C9B5E9DE2251FB420075AE20 /* NewsFlowArticleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFlowArticleItem.h; sourceTree = "<group>"; };
+		C9B5E9DF2251FB420075AE20 /* NFADContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFADContent.h; sourceTree = "<group>"; };
+		C9B5E9E22251FB4E0075AE20 /* NewsFlowResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFlowResponse.h; sourceTree = "<group>"; };
+		C9B5E9E42251FB820075AE20 /* NewsFlowItemParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFlowItemParse.h; sourceTree = "<group>"; };
+		C9B5E9E52251FB820075AE20 /* NewsFlowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFlowItem.h; sourceTree = "<group>"; };
+		C9B5E9E62251FB820075AE20 /* NewsFlowItemFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFlowItemFactory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,7 @@
 		C9657E3C2251D6C5008DCA5B /* UCPure */ = {
 			isa = PBXGroup;
 			children = (
+				C9B5E9DD2251FB320075AE20 /* Headers */,
 				C9657E4E2251D6C5008DCA5B /* UCPure.h */,
 				C9657E502251D6C5008DCA5B /* UCPure.m */,
 				C9657E3D2251D6C5008DCA5B /* Package */,
@@ -131,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				C9657E4A2251D6C5008DCA5B /* UCPure.plist */,
-				C9657E4B2251D6C5008DCA5B /* UCPureIcon.png */,
+				C9657E5A2251D7D3008DCA5B /* UCPureIcon@2x.png */,
 				C9657E4C2251D6C5008DCA5B /* UCPureIcon@2x.png */,
 			);
 			name = Preferences;
@@ -153,6 +166,19 @@
 			name = DynamicLibraries;
 			sourceTree = "<group>";
 		};
+		C9B5E9DD2251FB320075AE20 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				C9B5E9E22251FB4E0075AE20 /* NewsFlowResponse.h */,
+				C9B5E9DE2251FB420075AE20 /* NewsFlowArticleItem.h */,
+				C9B5E9E52251FB820075AE20 /* NewsFlowItem.h */,
+				C9B5E9E62251FB820075AE20 /* NewsFlowItemFactory.h */,
+				C9B5E9E42251FB820075AE20 /* NewsFlowItemParse.h */,
+				C9B5E9DF2251FB420075AE20 /* NFADContent.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -160,7 +186,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B5E9E82251FB820075AE20 /* NewsFlowItem.h in Headers */,
+				C9B5E9E32251FB4E0075AE20 /* NewsFlowResponse.h in Headers */,
 				C9657E4F2251D6C5008DCA5B /* UCPure.h in Headers */,
+				C9B5E9E72251FB820075AE20 /* NewsFlowItemParse.h in Headers */,
+				C9B5E9E92251FB820075AE20 /* NewsFlowItemFactory.h in Headers */,
+				C9B5E9E12251FB420075AE20 /* NFADContent.h in Headers */,
+				C9B5E9E02251FB420075AE20 /* NewsFlowArticleItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +225,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "猿码工作室（https://ymlab.net）";
 				TargetAttributes = {
 					C9657E362251D6C5008DCA5B = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9B8J3GNFE6;
 					};
 				};
 			};
@@ -342,18 +376,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevBuildPackageOnAnyBuild = YES;
 				EasyDevClearUiCacheOnInstall = NO;
-				EasyDevCopyOnBuild = NO;
-				EasyDevDeviceIP = "";
-				EasyDevDevicePort = "";
-				EasyDevInstallOnAnyBuild = NO;
-				EasyDevInstallOnProfiling = NO;
+				EasyDevCopyOnBuild = YES;
+				EasyDevDeviceIP = localhost;
+				EasyDevDevicePort = 2222;
+				EasyDevInstallOnAnyBuild = YES;
+				EasyDevInstallOnProfiling = YES;
 				EasyDevUsePackageVersionPList = YES;
-				EasyDevkillProcessOnInstall = SpringBoard;
+				EasyDevkillProcessOnInstall = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCPure/UCPure-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -369,18 +404,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9B8J3GNFE6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevBuildPackageOnAnyBuild = YES;
 				EasyDevClearUiCacheOnInstall = NO;
-				EasyDevCopyOnBuild = NO;
-				EasyDevDeviceIP = "";
-				EasyDevDevicePort = "";
-				EasyDevInstallOnAnyBuild = NO;
-				EasyDevInstallOnProfiling = NO;
+				EasyDevCopyOnBuild = YES;
+				EasyDevDeviceIP = localhost;
+				EasyDevDevicePort = 2222;
+				EasyDevInstallOnAnyBuild = YES;
+				EasyDevInstallOnProfiling = YES;
 				EasyDevUsePackageVersionPList = YES;
-				EasyDevkillProcessOnInstall = SpringBoard;
+				EasyDevkillProcessOnInstall = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCPure/UCPure-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -411,6 +447,7 @@
 				C9657E592251D6C5008DCA5B /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
