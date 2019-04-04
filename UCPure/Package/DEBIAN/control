@@ -1,7 +1,7 @@
 Package: net.ymlab.dev.UCPure
-Name: UC 净“水”器
+Name: UCPure
 Version: 1.0-8
-Description: 精简优化 UC 浏览器，基于 12.3.6.1157 版本开发。
+Description: UC 浏览器 VIP 破解插件，基于 11.9.2 版本开发。
 Section: Tweaks
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Conflicts: 

@@ -28,13 +28,10 @@
 		C9657E432251D6C5008DCA5B /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		C9657E442251D6C5008DCA5B /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
 		C9657E462251D6C5008DCA5B /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
-		C9657E4A2251D6C5008DCA5B /* UCPure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UCPure.plist; path = Package/Library/PreferenceLoader/Preferences/UCPure.plist; sourceTree = "<group>"; };
-		C9657E4C2251D6C5008DCA5B /* UCPureIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UCPureIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/UCPureIcon@2x.png"; sourceTree = "<group>"; };
 		C9657E4D2251D6C5008DCA5B /* UCPure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCPure-Prefix.pch"; sourceTree = "<group>"; };
 		C9657E4E2251D6C5008DCA5B /* UCPure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCPure.h; sourceTree = "<group>"; };
 		C9657E502251D6C5008DCA5B /* UCPure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCPure.m; sourceTree = "<group>"; };
 		C9657E542251D6C5008DCA5B /* UCPure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = UCPure.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/UCPure.plist; sourceTree = "<group>"; };
-		C9657E5A2251D7D3008DCA5B /* UCPureIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UCPureIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/UCPureIcon@2x.png"; sourceTree = "<group>"; };
 		C9B5E9DE2251FB420075AE20 /* NewsFlowArticleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFlowArticleItem.h; sourceTree = "<group>"; };
 		C9B5E9DF2251FB420075AE20 /* NFADContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFADContent.h; sourceTree = "<group>"; };
 		C9B5E9E22251FB4E0075AE20 /* NewsFlowResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFlowResponse.h; sourceTree = "<group>"; };
@@ -126,28 +123,9 @@
 		C9657E472251D6C5008DCA5B /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				C9657E482251D6C5008DCA5B /* PreferenceLoader */,
 				C9657E522251D6C5008DCA5B /* MobileSubstrate */,
 			);
 			name = Library;
-			sourceTree = "<group>";
-		};
-		C9657E482251D6C5008DCA5B /* PreferenceLoader */ = {
-			isa = PBXGroup;
-			children = (
-				C9657E492251D6C5008DCA5B /* Preferences */,
-			);
-			name = PreferenceLoader;
-			sourceTree = "<group>";
-		};
-		C9657E492251D6C5008DCA5B /* Preferences */ = {
-			isa = PBXGroup;
-			children = (
-				C9657E4A2251D6C5008DCA5B /* UCPure.plist */,
-				C9657E5A2251D7D3008DCA5B /* UCPureIcon@2x.png */,
-				C9657E4C2251D6C5008DCA5B /* UCPureIcon@2x.png */,
-			);
-			name = Preferences;
 			sourceTree = "<group>";
 		};
 		C9657E522251D6C5008DCA5B /* MobileSubstrate */ = {
